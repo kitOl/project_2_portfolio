@@ -22,6 +22,10 @@ ul {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -91,7 +95,8 @@ ul {
 .portfolio-cards-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 30px;
+  justify-content: center;
 }
 
 .card {
@@ -121,7 +126,7 @@ ul {
 
 .card:last-child,
 .card:nth-last-child(2) {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .card-img {
@@ -147,12 +152,15 @@ ul {
 .footer {
   background-color: #1e4776;
   color: white;
-  padding: 45px 0;
+  padding: 45px 0 100px;
 }
 
 .footer-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 30px;
 }
 
 .footer-copyright,
@@ -201,8 +209,8 @@ ul {
 
 .footer-button {
   display: inline-block;
-  padding: 0 30px;
-  height: 50px;
+  padding: 15px 30px;
+  /* height: 50px; */
 
   border-radius: 50px;
   border: 3px solid #fff;
@@ -210,7 +218,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 1.3;
   text-transform: uppercase;
   text-decoration: none;
 

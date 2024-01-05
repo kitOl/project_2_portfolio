@@ -1,0 +1,94 @@
+@media (max-width: 1140px) {
+  .footer {
+    padding: 40px 0 61px;
+  }
+  .footer-row {
+    flex-direction: column-reverse;
+    row-gap: 50px;
+    align-items: center;
+  }
+
+  .footer-contacts,
+  .footer-socials,
+  .footer-copyright {
+    text-align: center;
+  }
+
+  .footer-socials-row {
+    justify-content: center;
+  }
+
+  .footer-copyright-name {
+    font-size: 18px;
+  }
+
+  .footer-contacts p,
+  .footer-socials p,
+  .footer-copyright p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header-title {
+    font-size: 38px;
+  }
+
+  .header-subtitle {
+    font-size: 14px;
+  }
+
+  .portfolio {
+    padding: 40px 10px 40px;
+  }
+
+  .section-header {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+
+  .card-link {
+    padding: 15px;
+  }
+
+  .card-img {
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .footer-button {
+    padding: 15px 25px;
+  }
+
+  .project {
+    padding: 40px 0 60px;
+  }
+
+  .project-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .project-img {
+    margin-bottom: 20px;
+  }
+
+  .project-description {
+    margin-bottom: 50px;
+  }
+
+  .project-btn-back {
+    padding: 20px 18px;
+  }
+}
