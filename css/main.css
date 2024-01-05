@@ -8,6 +8,10 @@ font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -47,8 +51,8 @@ img {
   width: 100%;
   height: 100vh;
 
-  background-color: #7e838c;
-  background-image: url(../img/header-bg.jpg);
+  /* background-color: #7e838c;
+  background-image: url(../img/header-bg.jpg); */
   background-size: cover;
   background-position: center;
 

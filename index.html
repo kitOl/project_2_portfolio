@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="header">
       <h1 class="header-title">Олег Китаев</h1>
       <p class="header-subtitle">
         фрилансер, веб-разработчик, <br />создание сайтов
       </p>
-      <div class="header-arrow">
+      <a href="#portfolio" class="header-arrow">
         <img src="./img/chevron-down.svg" alt="Arrow" />
-      </div>
+      </a>
     </div>
 
     <main class="">
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="section-header">Портфолио</h2>
           <div class="portfolio-cards-wrapper">
@@ -108,5 +108,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
