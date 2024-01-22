@@ -52,7 +52,7 @@ img {
   height: 100vh;
 
   background-color: #7e838c;
-  background-image: url(./../img/header-bg.jpg);
+  background-image: url(../img/header-bg.jpg);
   background-size: cover;
   background-position: center;
 
